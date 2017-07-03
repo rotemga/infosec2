@@ -1,0 +1,5 @@
+I found out that I need to change the return value in the main function.
+When the msg is invalid, before the change It returned 1. So, in this case I needed to change the "mov eax, 1".
+I change the '1' to '0'.
+
+

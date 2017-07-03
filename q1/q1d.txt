@@ -1,0 +1,4 @@
+I found the offset of the var_A in the command "movzx eax, [ebp+var_A]"
+and found the offset of var_x in the command "cmp al, [ebp+var_X]"
+Then, I puted the offset of var_X in the first command instead of var_A.
+So, in the cmp command I compare the same var. It is will always return it's equal.

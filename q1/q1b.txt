@@ -1,0 +1,7 @@
+Update first char (data[1]) to be the result of the xor.
+I saw in the previous question, that msgcheck return true when the first char is equal to the xor result.
+So, this change will cause the msg to be validate.
+If the size is not good (size = data[0]), 
+I fix the msg like the in q1c (but this is just in specific case, so this is completely differents solutions!)
+
+

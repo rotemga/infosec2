@@ -1,0 +1,10 @@
+We save given hexadecimal value in variable.
+The data in the 0 index, is the size of the string.
+Go over data from the second char to the end of the string.
+xor second char with the hexadecimal value that given
+ and continuity xor other chars with the result of the previous iteration.
+After we finish to loop, compare the first char in the string with the xor result. 
+If it's equal return true. Else, return false.
+
+
+ 

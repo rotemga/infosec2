@@ -1,0 +1,4 @@
+update size of the string to be zero. update the first char to be the given hexadecimal value.
+So, in this new msg as input we are not getting into the loop in validate function.
+It's will only check that the given hexadecimal value is equal to the first char, and return true.
+  

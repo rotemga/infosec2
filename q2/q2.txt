@@ -1,0 +1,7 @@
+1. I looked readfile in ida, and found out that there are 2 dead zones, where there is sequence of nop.
+2. In the small dead zone (before the fprintf call), I just jumped to the big dead zone.
+3. In the big dead zone, first if I get to this code without the jump from the small dead zone,
+	I skip this code and jump to the flow needed (it's can only happen in the first time we get to this code)
+	If I get into the code from the jump, I read the string, check if the two first char is '#!'. If not, I jump
+	to before the call to _fprintf.
+	If yes, I call system function, and then I return after the fprintf call.

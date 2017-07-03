@@ -1,0 +1,22 @@
+
+#!echo Victory!
+#!echo Victory!
+#!echo "blblb" > tmpp.txt
+Line 1
+Line 2
+Line 1
+Line 2
+Line 1
+Line 2
+Line 1
+Line 2
+blabla
+#!echo Victory!
+Line 3
+#!ls -l
+#!pwd
+#!cat tmpp.txt
+Line 1
+Line 2
+Line 1
+Line 2
